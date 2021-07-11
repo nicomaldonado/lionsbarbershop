@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <title>Lions Barber Shop</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_logo">
+        <p>
+          <a href="../index.html" target="_self">LIONS BARBER SHOP</a>
+        </p>
+      </div>
+      <nav class="header_menu">
+        <ul>
+          <li><a href="../index.html" target="_self">Inicio</a></li>
+          <li><a href="servicios.html" target="_self">Servicios</a></li>
+          <li>
+            <a href="nuestra-barberia.html" target="_self">Nuestra Barberia</a>
+          </li>
+          <li>
+            <a href="turnos.html" target="_self" id="menu__button"
+              >Reservar tu turno</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="mainturnos">
+      <section class="turnos">
+        <h3>¡Reserva tu Turno!</h3>
+        <form action="" method="" enctype="text/plain">
+          <label for="nombre">Nombre y Apellido</label>
+          <input type="text" name="nombre" id="nombre" />
+          <br /><br />
+          <label for="telefono">Telefono</label>
+          <input type="tel" name="telefono" id="telefono" />
+          <br /><br />
+          <label for="diaHorario">Dia y Horario</label>
+          <input type="datetime-local" name="diaHorario" id="diaHorario" />
+          <br /><br />
+          <label for="servicios">Selecciona el servicio</label>
+          <select name="servicios" id="servicios">
+            <option value="1">Corte $600</option>
+            <option value="2" selected>Corte y Barba $800</option>
+            <option value="3">Arreglo Barba $4oo</option>
+            <option value="4">Color $800</option>
+          </select>
+          <br /><br />
+          <label for="check1"
+            >Deseo recibir un mensaje con la confirmación del turno en mi
+            celular</label
+          >
+          <input type="checkbox" name="check1" id="check1" />
+          <br /><br />
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Borrar" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy2021 All rights reserved</p>
+      <div class="footer__redes">
+        <div class="icon">
+          <a href="#"
+            ><img src="../images/facebook-icon.png" alt="facebook"
+          /></a>
+        </div>
+        <div class="icon">
+          <a href="#"
+            ><img src="../images/instagram-icon.png" alt="instagram"
+          /></a>
+        </div>
+        <div class="icon">
+          <a href="#"><img src="../images/twitter-icon.png" alt="twitter" /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
